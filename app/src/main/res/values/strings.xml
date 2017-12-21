@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">LED Flicker Finder</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="title">LED Light Flicker Finder</string>
+    <string name="value">value</string>
+    <string name="accuracy">accuracy</string>
+    <string name="light">Finding light sensor...</string>
+    <string name="sensitivity">Sensitivity:\u0020</string>
+    <string name="threshold">Flicker Threshold:\u0020</string>
+    <string name="light_intensity">Light Intensity:\u0020</string>
+    <string name="lux">\u0020Lux</string>
+    <string name="flicker_count">\nFlicker Count:\u0020</string>
+    <string name="max_flicker">Max Flicker:\u0020</string>
+    <string name="minutes">Minutes: \u0020</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="mute">Mute:</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_help">Help</string>
+    <string name="settingsmsg">Read the Help notes before changing this setting:</string>
+    <string name="updaterate">Sensor Update Rate:\u0020</string>
+    <string name="lightsensor">Light Sensor Info: \n</string>
+    <string name="lsdefault">Finding light sensor info...</string>
+    <string name="lsfound">Waiting for light sensor data...</string>
+    <string name="lsnotfound">Light sensor not found</string>
+    <string name="ratemsg1">Your light sensor update rate:\u0020</string>
+    <string name="ratemsg2">\u0020updates/second \n\n</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="helptext">
+        LED Flicker Finder  (v1.00.00)\n\n
+
+        Use this app to help locate LED light bulbs
+        that are flickering.\n\n
+
+        Sometimes a defective LED bulb may flicker intermittently.
+        If you have many LED bulbs in a room, it may be difficult to
+        determine which bulb is at fault.
+        Some LED bulbs produce a slight flicker every few minutes that is
+        difficult to notice by eye.\n\n
+
+        Turn on this app and place your phone on a flat surface (screen facing up)
+        directly under the suspected LED bulb.
+        The Light Intensity field displays the current light intensity, in lux,
+        measured by the light sensor in your phone.
+        Typically a light intensity of 100 lux
+        or more is needed for the app
+        to work best.\n\n
+
+        Every time a flicker is detected, the app will make a beep, counts the flicker event,
+        and keeps track of the maximum flicker level (in percent) detected.
+        Press the Reset button to reset the Flicker Event
+        counter, Max Flicker level and Minute timer.\n\n
+
+        Adjust your phone volume control as desired to hear each flicker event.
+        If you don\'t want to hear the beep, just tap the "Mute" checkbox.\n\n
+
+        If you walk near the phone, you may cast a shadow that produces a false flicker.
+        Press the Reset button if you want to reset the Flicker Event
+        counter and the Max Flicker level detected.\n\n
+
+        Let the app run for many minutes and see if any flicker events are detected.
+        For example, if your eyes notice a flicker every 5 minutes, you should run the
+        app for 15 minutes (3 times the typical flicker period) under each LED
+        bulb that you are checking. \n\n
+
+        Then try placing the phone under another LED bulb,
+        press "Reset" and again wait many minutes
+        to see if any flicker events are detected for that LED.\n\n
+
+        Repeat the process for each LED bulb. The bulb that produces the
+        largest flicker percentage is probably the LED bulb that needs to be replaced.\n\n
+
+        Settings: \n\n
+        Adjust the Flicker Threshold to the lowest level that does
+        not report false flicker events.
+        Usually a setting in the range of 2% to 10% works well.
+        You can test it by passing your hand over the
+        top of the phone while the app is running. \n\n
+
+        Notes: \n\n
+        Some phone light sensors are more
+        responsive than others. The update rate of your
+        phone\'s light sensor is shown on the Settings screen. \n\n
+
+        Your phone\'s light sensor should have an update rate of
+        at least 10 updates/second in order to detect flickers - faster is better.
+        If your phone\'s light sensor is slower than this, you may be able to
+        detect long flickers; but not be able to detect brief flickers. \n\n
+
+        Some LED bulbs are temperature or voltage sensitive and
+        may go for a long period of time without
+        flickering. However, under the right conditions, they start flickering
+        more often. You can use this app accordingly to locate the faulty bulb when you notice
+        that a bulb is flickering frequently.\n\n
+
+        Some LED bulbs produce "micro-flickers" of 2% or less that are difficult to see
+        and may not be objectionable. However, other bulbs can
+        produce noticeable flickers of 20% or more.\n\n
+
+        If you hold the phone in your hand while the app is running, it will likely
+        report false flicker events due to small hand movements that cause
+        the light intensity seen by the sensor to change.\n\n
+
+        Do not place the phone near a TV or other source of flickering light in the room,
+        as this may cause false flicker events while you are testing.
+        If your LED bulbs are bright, the app can be used
+        during the day; but best results are obtained at night.\n\n
+
+        The light sensor reading is updated rapidly multiple times each second.
+        A flicker event is detected
+        when the percent difference between sequential light readings exceeds the Flicker Threshold.
+        This app intentionally keeps your phone screen alive
+        while it is running.\n\n
+
+        This app is not a scientific instrument and is not suitable for
+        professional, commercial or legal use for the determination
+        or assessment of LED bulb flickering. By using this app, the user
+        agrees to hold harmless and exclude the app developer from all
+        liability for any loss or damages arising from the use of this app.\n\n
+
+        I hope that you enjoy this app - Roger Noar, KN7RN, www.rayonics.com . \n\n
+
+        ;)
+
+    </string>
+
+
+</resources>
